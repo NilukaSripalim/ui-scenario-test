@@ -1,0 +1,37 @@
+{
+  "name": "ui-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "webdriver-start": "webdriver-manager start",
+    "test": "node_modules/protractor/bin/protractor outputjs/conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilukaSripalim/ui-scenario-test.git"
+  },
+  "author": "nsm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NilukaSripalim/ui-scenario-test/issues"
+  },
+  "homepage": "https://github.com/NilukaSripalim/ui-scenario-test#readme",
+  "dependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/jasminewd2": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "protractor": "5.1.2",
+    "typescript": "~3.1.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/jasmine": "^2.5.51",
+    "@types/jasminewd2": "^2.0.2",
+    "npm-run-all": "^4.0.2",
+    "ts-node": "^3.0.2"
+  },
+  "keywords": []
+}
