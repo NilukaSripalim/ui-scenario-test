@@ -5,7 +5,7 @@
         "sourceMap": true,
 
 
-        "outDir": "Protractor outputjs/conf.js",
+        "outDir": "protractor outputjs/conf.js",
         "types": [
             "jasmine",
             "node"
